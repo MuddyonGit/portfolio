@@ -161,7 +161,7 @@ code {
 #title2{
   font-family: arial;
 }
-@media(max-width: 1500px){
+@media(max-width: 800px){
   .back2{
     padding: 25px;
   }
@@ -203,7 +203,7 @@ code {
   color: gray;
   text-align: left;
 }
-@media(max-width: 1500px){
+@media(max-width: 800px){
   .back3{
     padding: 25px;
   }
