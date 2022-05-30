@@ -108,8 +108,8 @@ code {
   color: darkblue;
 }
 #my-photo{
-  width: 30%;
-  height: 30%;
+  width: 60%;
+  height: 50%;
   border-radius: 25px;
   border: 3px solid lime;
 }
@@ -128,8 +128,8 @@ code {
      width: 100%;
    }
     #my-photo{
-      width: 50%;
-      
+      width: 60%;
+      height: 50%;   
     }
     .card-text{
       font-size: 22px;
@@ -137,6 +137,11 @@ code {
     .text{
       font-size: 22px;
     }
+}
+@media(max-width: 800px){
+  #my-photo{
+     width: 90%;
+  }
 }
 .back2{
   background-image: linear-gradient(to right, #11998E  ,  #38EF7D);
