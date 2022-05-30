@@ -11,3 +11,289 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.navbar-brand{
+  border: 3px solid darkcyan;
+  /*border-bottom: 3px solid blue;
+  border-right:  3px solid yellow;
+  border-left: 3px solid green;*/
+  font-family: cursive;
+  padding: 10px;
+  border-radius: 5px;
+}
+#navHire{
+  background-color: forestgreen;
+  color: white;
+  font-weight: bold;
+  font-family: verdana;
+}
+#navHire:hover{
+  background: yellowgreen;
+  border: 1px solid yellowgreen;
+}
+@media(max-width: 1299px){
+  #navHire{
+     width: 150px;
+     margin: 0 auto;
+     background: forestgreen;
+  }
+  .navbar-brand{
+    font-family: verdana;
+    padding: 5px;
+    font-weight: lighter;
+  }
+}
+#foot-email{
+  font-size: 25px;
+}
+@media(max-width: 1500px)
+{
+  #foot-email{
+    font-size: 16px;
+  }
+}
+
+.m{
+  color: red;
+  
+}
+.u{
+  color: yellowgreen;
+ 
+}
+.d{
+  color: deeppink;
+ 
+}
+.a{
+  color: gray;
+ 
+}
+.s{
+  color: green;
+ 
+}
+.i{
+  color: deeppink;
+}
+.r{
+  color: blue;
+  
+}
+.b{
+  color: rebeccapurple;
+}
+.h{
+  color: orangered;
+}
+.a2{
+  color: firebrick;
+  
+}
+.t{
+  color: lime;
+  
+}
+.back{
+  background-image: linear-gradient(to right, #8e2de2, #4a00e0);
+  padding: 30px;
+  border: 2px solid dotted white;
+}
+#card{
+  width: 50%;
+  height: 50%;
+  margin: 0 auto;
+  background-image: linear-gradient(to right, #8e2de2, #4a00e0);
+  border: none;
+}
+.card-title{
+  color: darkblue;
+}
+#my-photo{
+  width: 60%;
+  height: 50%;
+  border-radius: 25px;
+  border: 3px solid lime;
+}
+.card-text{
+  color: white;
+  margin-top: 30px;
+}
+.text{
+  color: white;
+  margin-top: 20px;
+}
+
+@media(max-width: 1500px){
+   #card{
+     margin: 0px;
+     width: 100%;
+   }
+    #my-photo{
+      width: 100%;
+      
+    }
+    .card-text{
+      font-size: 22px;
+    }
+    .text{
+      font-size: 22px;
+    }
+}
+.back2{
+  background-image: linear-gradient(to right, #11998E  ,  #38EF7D);
+  padding: 60px;
+}
+#card2{
+  background: white;
+  color: black;
+  width: 70%;
+  height: 50%;
+  margin: 0 auto;
+}
+.text2{
+  font-size: 24px;
+  
+}
+#title2{
+  font-family: arial;
+}
+@media(max-width: 1500px){
+  .back2{
+    padding: 25px;
+  }
+  #card2{
+    margin: 0px;
+    width: 100%;
+  }
+  #title2{
+    font-family: cursive;
+    font-size: 30px;
+  }
+  .text2{
+    font-size: 18px;
+  }
+}
+#t2{
+  text-align: left;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.back3{
+  background-image: linear-gradient(to right, #FF61D2,  #FE9090);
+  padding: 60px;
+}
+#card3{
+  background: white;
+  width: 70%;
+  height: 50%;
+  margin: 0 auto;
+}
+.skillSet{
+  list-style: none;
+  font-size: 24px;
+  text-align: left;
+}
+.skillH3{
+  margin-left: 30px;
+  margin-top: 20px;
+  color: gray;
+  text-align: left;
+}
+@media(max-width: 1500px){
+  .back3{
+    padding: 25px;
+  }
+  #card3{
+    margin: 0px;
+    width: 100%;
+  }
+  .skillH3{
+    margin-left: 0px;
+    font-size: 20px;
+    text-align: left;
+  }
+  .skillSet{
+    margin-left: -30px;
+    font-size: 18px;
+    text-align: left;
+  }
+}
+.back4{
+  background-image: linear-gradient(to left, #02AABD, #00CDAC);
+  display: grid;
+  grid-auto-flow: column;
+  margin-bottom: 20px;
+  padding: 30px;
+}
+#card-review{
+  margin: 0 auto;
+  padding: 10px;
+  width: 80%;
+  padding: 20px;
+
+}
+#text-review{
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+}
+.cr{
+  margin-top: -10px;
+  background-image: linear-gradient(to left, #02AABD, #00CDAC);
+  padding: 20px;
+}
+@media(max-width: 1500px){
+  .back4{
+    grid-auto-flow: row;
+    padding: 5px;
+  }
+  #card-review{
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 20px;;
+    padding: 30px;
+  }
+  #text-review{
+    font-size: 18px;
+
+  }
+}
+.footer{
+  background: white;
+  margin-top: -20px;
+}
+#footer-card{
+  padding: 30px;
+}
+.icon{
+  font-size: 40px;
+  margin: 20px;
+  color: deeppink;
+}
+#footer-head{
+  font-size: 30px;
+}
+.icon:hover{
+   color: cyan;
+}
+#footer-card{
+  background-color: white;
+}
+@media(max-width: 1500px){
+  #footer-head{
+    font-size: 20px;
+  }
+  .icon{
+    font-size: 25px;
+    margin: 15px;
+    color: deeppink;
+  }
+}
+.skills{
+  display: grid;
+  grid-auto-flow: column;
+}
+
+
+
+
