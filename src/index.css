@@ -111,7 +111,7 @@ code {
   width: 60%;
   height: 50%;
   border-radius: 25px;
-  border: 3px solid lime;
+  border: 3px solid deeppink;
 }
 .card-text{
   color: white;
@@ -128,8 +128,8 @@ code {
      width: 100%;
    }
     #my-photo{
-      width: 60%;
-      height: 50%;   
+      width: 40%;
+      height: 40%;   
     }
     .card-text{
       font-size: 22px;
