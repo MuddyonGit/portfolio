@@ -32,10 +32,9 @@ export default function Welcome() {
           <div className="card-body">
             
             <h1 className="card-title" id="title2">What are my skills?</h1>
-            
-            
-              
-              <h3 className="skillH3">Languages that I speak:</h3>
+             <div class="all-skills">
+              <div class="skills">
+              <h3 className="skillH3">Languages which I speak:</h3>
               <ul className="skillSet">
                 <li>&#9995;HTML</li>
                 <li>&#9995;CSS</li>
@@ -45,7 +44,10 @@ export default function Welcome() {
                 <li>&#9995;React</li>
                 <li>&#9995;PHP</li>
                 <li>&#9995;MySql</li>
+                <li>&#9995;Outsystems</li>
               </ul>
+              </div>
+              <div class="tools">
               <h3 className="skillH3">Tools and resources which I use mostly:</h3>
               <ul className="skillSet">
                 <li>&#10150;Visual Studio</li>
@@ -55,7 +57,10 @@ export default function Welcome() {
                 <li>&#10150;Linux</li>
                 <li>&#10150;Windows</li>
                 <li>&#10150;Google</li>
+                <li>&#10150;Jira</li>
               </ul>
+              </div>
+              <div class="soft-skills">
               <h3 className='skillH3'>Analytical and Interpersonal skills:</h3>
               <ul className="skillSet">
                 <li>&#10004;Logical thinking</li>
@@ -69,7 +74,8 @@ export default function Welcome() {
                 <li>&#10004;Patience</li>
                 <li>&#10004;Positivity</li>
               </ul>
-            
+             </div>
+            </div>
           </div>
        </div>
    </div>
