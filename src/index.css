@@ -122,6 +122,11 @@ code {
   margin-top: 20px;
 }
 
+.all-skills{
+    display: grid;
+    grid-auto-flow: column;
+}
+
 @media(min-width: 800px){
    #card{
      margin: 0px;
@@ -141,6 +146,9 @@ code {
 @media(max-width: 800px){
   #my-photo{
      width: 80%;
+  }
+  .all-skills{
+     grid-auto-flow: row;
   }
 }
 .back2{
