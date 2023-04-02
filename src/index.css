@@ -12,13 +12,14 @@ code {
     monospace;
 }
 .navbar-brand{
-  border: 3px solid green;
+  border: 3px solid #8A2BE2;
   /*border-bottom: 3px solid blue;
   border-right:  3px solid yellow;
   border-left: 3px solid green;*/
   font-family: cursive;
   padding: 10px;
   border-radius: 5px;
+  color: #8A2BE2;
 }
 #navHire{
   background-color: forestgreen;
